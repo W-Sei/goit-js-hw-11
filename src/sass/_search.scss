@@ -22,30 +22,30 @@ body {
   padding: 10px;
   font-size: 15px;
   border: none;
-  border-top-left-radius: 2px;
-  border-bottom-left-radius: 2px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
   float: left;
   width: 300px;
   outline: none;
-  background: #f1f1f1;
+  background: #e6f2ca;
 }
 
 .search-form-button {
   float: left;
   width: 50px;
   padding: 10px;
-  background: #c3c2c2;
+  background: #ebf120;
   color: #000;
   font-size: 15px;
   border: none;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   border-left: none;
   cursor: pointer;
 }
 
 .search-form-button:hover {
-  background: #c3c2c2ce;
+  background: #d9e710e0;
 }
 
 .search-form::after {
@@ -111,7 +111,10 @@ body {
 .load-more {
   display: flex;
   margin: 0px auto 20px;
-  padding: 10px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 250px;
+  padding-left: 250px;
   text-align: center;
   text-transform: uppercase;
   font-size: large;
